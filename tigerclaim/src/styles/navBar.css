@@ -1,36 +1,42 @@
 .navbar {
-    background-color: #461d7c; /* LSU Purple */
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .navbar-logo {
-    font-size: 1.4rem;
-    font-weight: 700;
-  }
-  
-  .navbar-links {
-    display: flex;
-    gap: 1rem;
-  }
-  
-  .nav-btn {
-    background-color: #fdd023; /* LSU Gold */
-    border: none;
-    border-radius: 8px;
-    padding: 0.5rem 1rem;
-    font-weight: bold;
-    color: #461d7c;
-    cursor: pointer;
-    transition: 0.3s ease;
-  }
-  
-  .nav-btn:hover {
-    background-color: #ffde59;
-    transform: scale(1.05);
-  }
-  
+  background-color: #ffffff; /* LSU Purple */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.navbar-logo-img {
+  width: 100px; 
+  height: auto;
+  object-fit: contain;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-btn {
+  background-color: #fdd023; 
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  color: #461d7c;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #ffde59;
+  transform: scale(1.05);
+}
