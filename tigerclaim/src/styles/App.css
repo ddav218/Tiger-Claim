@@ -1,0 +1,57 @@
+/* LSU color palette */
+:root {
+  --lsu-purple: #461d7c;
+  --lsu-gold: #fdd023;
+  --background-light: #fafafa;
+  --text-dark: #222;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--background-light);
+  color: var(--text-dark);
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: white;
+}
+
+header {
+  background-color: var(--lsu-purple);
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+button {
+  background-color: var(--lsu-purple);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: var(--lsu-gold);
+  color: var(--lsu-purple);
+}
+
+input, select {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin: 0.5rem 0;
+  width: 100%;
+  max-width: 400px;
+  font-size: 1rem;
+}

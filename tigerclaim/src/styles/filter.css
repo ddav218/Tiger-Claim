@@ -1,0 +1,21 @@
+.filters {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .filter-dropdown {
+    margin: 0 0.5rem;
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    outline: none;
+    transition: 0.3s ease;
+  }
+  
+  .filter-dropdown:hover,
+  .filter-dropdown:focus {
+    border-color: #461d7c;
+    box-shadow: 0 0 4px rgba(70, 29, 124, 0.3);
+  }
+  

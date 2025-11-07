@@ -1,0 +1,19 @@
+.item-grid {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-bottom: 4rem;
+  }
+  
+  .item-placeholder {
+    border: 2px dashed #ccc;
+    padding: 2rem;
+    color: #777;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+  }
+  
